@@ -1,2 +1,1 @@
-# clean-typora-pic
-清理typora的未引用图片
+使用时把clear.py中的pic_dir和md_path改成对应文件路径即可，需安装send2trash库将文件移入回收站，也可以使用os.remove(pic_path)代替，不过图片文件将被直接删除，谨慎使用。
